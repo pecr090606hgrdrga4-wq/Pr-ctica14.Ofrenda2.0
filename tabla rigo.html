@@ -75,7 +75,9 @@
   .verde { background-color: #00a000; }
   .azul { background-color: #00aaff; }+
   .gris { background-color: #555555; }
-  .vacio { background-color: #1a1a1a; }
+  .negro { background-color: #1a1a1a; }
+  .rosa {background-color: #FF00FF;}
+  .blanco {background-color: #FFFFFF;}
 </style>
 </head>
 <body>
@@ -117,14 +119,16 @@ const altar = [
 ];
 
 const colorMap = {
-  v: "vacio",
+  v: "negro",
   n: "naranja",
   m: "morado",
   d: "amarillo",
   r: "rojo",
   f: "azul",
   g: "verde",
-  b: "gris"
+  b: "gris",
+  R: "rosa",
+  b: "blanco"
 };
 
 function mostrarPixelArt() {
